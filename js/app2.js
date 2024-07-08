@@ -164,7 +164,7 @@ function updateItem(data)
 
 
 
-  window.editItem = function(id, titulo, genero, fecha_lanzamiento,duracion,director,reparto,sinopsis) 
+  window.editItem = function(id, titulo, genero, fecha_lanzamiento,duracion,director,sinopsis) 
   {
     document.getElementById('id').value = id;
     document.getElementById('titulo').value = titulo;
